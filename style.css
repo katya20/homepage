@@ -14,7 +14,10 @@
 
 #todo {
   font-family: "verdana";
-  font-size: 15
+  font-size: 15;
+  background-color: aliceblue;
+  opacity: 0.6;
+  
 }
 #background {
   background-image: url("http://cdn.paper4pc.com/images/dandelions-closeup-wallpaper-1.jpg");
