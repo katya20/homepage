@@ -3,8 +3,7 @@ function startTime() {
   var h = today.getHours();
   var m = today.getMinutes();
   m = checkTime(m);
-  $('#clock').innerHTML =
-    h + ":" + m ;
+  $('#clock').html(h + ":" + m);
   var t = setTimeout(startTime, 500);
 }
 function checkTime(i) {
