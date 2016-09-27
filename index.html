@@ -3,8 +3,20 @@
     <link href="style.css" rel="stylesheet" />
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>  
     <div>
-     <script>
-       
+     <script> 
+       function startTime() {
+         var today = new Date();
+         var h = today.getHours();
+         var m = today.getMinutes();
+         m = checkTime(m);
+         document.getElementById('clock').innerHTML =
+           h + ":" + m ;
+         var t = setTimeout(startTime, 500);
+       }
+       function checkTime(i) {
+         if (i < 10) {i = "0" + i};  
+         return i;
+       }
       </script>
            
     </div>
