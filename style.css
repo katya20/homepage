@@ -1,10 +1,14 @@
 #clock {
   text-align: center;
+  vertical-align:text-bottom;
   font-size: 100;
   font-family:"verdana"; 
-  vertical-align:inherit;
+  
 }
- 
+
+#greeting {
+}
+
 #background {
   background-image: url("http://cdn.paper4pc.com/images/dandelions-closeup-wallpaper-1.jpg");
   background-size:cover; 
