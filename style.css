@@ -28,6 +28,7 @@
 .tasks {
   display: inline;
   text-align: center;
+  column-count: 2;
   
 }
 
