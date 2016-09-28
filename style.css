@@ -24,7 +24,7 @@
   text-align: center;
   position: center;
   border-bottom: 3px solid dimgray;
-  column-count: 2;
+
 }
 
 #todo-list {
@@ -44,6 +44,7 @@
 
 #todo1 {
   width: 250;
+  height: 300px;
   background-color: aliceblue;
   opacity: 0.6;
   font-family: "verdana";
@@ -55,6 +56,7 @@
 
 #todo2 {
   width: 250;
+  height: 300px;
   background-color: aliceblue;
   opacity: 0.6;
   font-family: "verdana";
