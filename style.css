@@ -54,6 +54,10 @@
   float: left;
   text-align: center;
 }
+#checkBox1 {
+  float:left;
+  
+}
 
 #todo2 {
   width: 250;
