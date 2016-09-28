@@ -22,7 +22,7 @@
   color: black;
   text-align: center;
   position: center;
-  : grey;
+  border-bottom-color: dimgray;
 }
 
 #todo1 {
