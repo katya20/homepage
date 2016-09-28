@@ -22,12 +22,27 @@
   color: black;
   text-align: center;
   position: center;
+  bo
 }
 
 #todo1 {
+  background-color: aliceblue;
+  opacity: 0.6;
+  font-family: "verdana";
+  font-size: 15;
+  color: black;
+  text-align: center;
+  position: center;
 }
 
 #todo2 {
+  background-color: aliceblue;
+  opacity: 0.6;
+  font-family: "verdana";
+  font-size: 15;
+  color: black;
+  text-align: center;
+  position: center;
 }
 
 
