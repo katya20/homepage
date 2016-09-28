@@ -25,7 +25,10 @@
   border-bottom: 3px solid dimgray;
 }
 
-#tasks {
+.tasks {
+  display: inline;
+  text-align: center;
+  
 }
 
 #todo1 {
