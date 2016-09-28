@@ -25,12 +25,14 @@
   border-bottom: 3px solid dimgray;
 }
 
+/*
 .tasks {
   display: inline;
   text-align: center;
   column-count: 2;
   
 }
+*/
 
 #todo1 {
   background-color: aliceblue;
@@ -38,8 +40,7 @@
   font-family: "verdana";
   font-size: 15;
   color: black;
-  text-align: center;
-  position: center;
+  float: left
 }
 
 #todo2 {
