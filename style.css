@@ -48,7 +48,8 @@
   background-color: aliceblue;
   opacity: 0.6;
   font-family: "verdana";
-  font-size: 15;
+  text-decoration: underline;
+  font-size: 18;
   color: black;
   float: left;
   text-align: center;
@@ -60,7 +61,8 @@
   background-color: aliceblue;
   opacity: 0.6;
   font-family: "verdana";
-  font-size: 15;
+  text-decoration: 
+  font-size: 18;
   color: black;
   text-align: center;
   position: center;
