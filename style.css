@@ -42,8 +42,7 @@
 */
 
 #todo1 {
-  display: block;
-  padding-le
+  width: 250;
   background-color: aliceblue;
   opacity: 0.6;
   font-family: "verdana";
@@ -54,6 +53,7 @@
 }
 
 #todo2 {
+  width: 250;
   background-color: aliceblue;
   opacity: 0.6;
   font-family: "verdana";
