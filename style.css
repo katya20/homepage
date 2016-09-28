@@ -24,6 +24,7 @@
   text-align: center;
   position: center;
   border-bottom: 3px solid dimgray;
+  column-count: 2;
 }
 
 #todo-list {
