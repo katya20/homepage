@@ -25,6 +25,10 @@
   border-bottom: 3px solid dimgray;
 }
 
+#todo-list {
+  width: 750
+}
+
 /*
 .tasks {
   display: inline;
