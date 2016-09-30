@@ -60,6 +60,7 @@
   display: block;
   outline-color: aqua;
   outline-width: medium;
+  width: 225;
 }
 
 #todo2 {
