@@ -55,15 +55,7 @@
   text-align: center;
 }
 
-#checkBox1 {
 
-  display: block;
-  outline-color: aqua;
-  outline-width: medium;
-  width: 225;
-  mar;
-  
-}
 
 #todo2 {
   width: 250;
@@ -79,6 +71,16 @@
   float:right
 }
 
+#checkBox1 {
+  margin-top: 5px;
+  display: block;
+  outline-color: aqua;
+  outline-width: medium;
+  width: 225;
+  margin-left: inherit;
+  text-decoration: none;
+
+}
 
 #background {
   background-image: url("http://cdn.paper4pc.com/images/dandelions-closeup-wallpaper-1.jpg");
