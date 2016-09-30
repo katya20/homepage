@@ -72,13 +72,14 @@
 }
 
 #checkBox1 {
+  text-decoration: none;
   margin-top: 5px;
   display: block;
   outline-color: aqua;
   outline-width: medium;
   width: 225;
   margin-left: inherit;
-  text-decoration: none;
+  
 
 }
 
