@@ -11,6 +11,8 @@ function checkTime(i) {
   return i;
 }
 
+console.log("hello")
+
 var quantityInput = $(".list")
 
 quantityInput.keydown(function(e) {
@@ -19,7 +21,6 @@ quantityInput.keydown(function(e) {
   console.log ("hi");
   // enter key!
   if (keyCode == 13) {	
-    console.log("enter")
-    addMessage(inputValue);
+    console.log(inputValue);
   }
 })
