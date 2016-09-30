@@ -11,3 +11,15 @@ function checkTime(i) {
   return i;
 }
 
+var quantityInput = $(".list")
+
+quantityInput.keydown(function(e) {
+  var keyCode = e.keyCode;
+  var inputValue = quantityInput.val();
+  console.log ("hi");
+  // enter key!
+  if (keyCode == 13) {	
+    console.log("enter")
+    addMessage(inputValue);
+  }
+})
