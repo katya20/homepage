@@ -21,6 +21,7 @@ quantityInput.keydown(function(e) {
   console.log ("hi");
   // enter key!
   if (keyCode == 13) {	
+    console.log("enter");
     return(inputValue);
   }
 })
