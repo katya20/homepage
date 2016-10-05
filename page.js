@@ -32,7 +32,7 @@ input.keydown(function(e) {
 })
 
 onNewListItem("list1", function(value) {
-  $("#list-display").append("<div>" + value + "</div>")
+  $("#output1").append("<div>" + value + "</div>")
   console.log(value);
 }) 
 
