@@ -44,5 +44,5 @@ onNewListItem("list1", function(value) {
 
 $("#clear-button").click(function() {
   deleteValue("list1")
-  $("#list-display").html("");
+  $("#output1").html("");
 });
