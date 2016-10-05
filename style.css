@@ -91,7 +91,9 @@
 #clear-button {
   background-color: white;
   border: none;
-  color: 
+  text-decoration: line-through;
+  cursor: pointer;
+  
   
   
   
