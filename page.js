@@ -1,3 +1,6 @@
+// F
+
+
 // Clock & time refresh
 
 function startTime() {
@@ -17,7 +20,7 @@ console.log("hello")
 
 // To Do List
 
-var input1 = $("#value-input1")
+var input1 = $("#checkbox1")
 
 
 input1.keydown(function(e) {	
