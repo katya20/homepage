@@ -1,4 +1,4 @@
-// F
+// Functions
 
 
 // Clock & time refresh
@@ -20,18 +20,24 @@ console.log("hello")
 
 // To Do List
 
-var input1 = $("#checkbox1")
+var input = $("#checkbox1")
 
 
-input1.keydown(function(e) {	
+
+input.keydown(function(e) {	
   if (e.keyCode == "13") {
-    var valueToSave = input1.val();    
+    var valueToSave = input.val();
     addListItem("list1", valueToSave);
-    console.log(valueToSave);
   }
 })
 
 onNewListItem("list1", function(value) {
-  $("#value-output1").append("<div>" + value + "</div>")
+  $("#list-display").append("<div>" + value + "</div>")
   console.log("hi");
+  console.log(value);
 }) 
+
+$("#clear-button").click(function() {
+  deleteValue("list1")
+  $("#list-display").html("");
+});
