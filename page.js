@@ -1,3 +1,5 @@
+// Clock & time refresh
+
 function startTime() {
   var today = new Date();
   var h = today.getHours();
@@ -13,15 +15,20 @@ function checkTime(i) {
 
 console.log("hello")
 
-var quantityInput = $(".list")
+// To Do List
 
-quantityInput.keydown(function(e) {
-  var keyCode = e.keyCode;
-  var inputValue = quantityInput.val();
-  console.log ("hi");
-  // enter key!
-  if (keyCode == 13) {	
-    console.log("enter");
-    return(inputValue);
+var input1 = $("#value-input1")
+
+
+input1.keydown(function(e) {	
+  if (e.keyCode == "13") {
+    var valueToSave = input1.val();    
+    addListItem("list1", valueToSave);
+    console.log(valueToSave);
   }
 })
+
+onNewListItem("list1", function(value) {
+  $("#value-output1").append("<div>" + value + "</div>")
+  console.log("hi");
+}) 
