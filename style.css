@@ -79,8 +79,11 @@
   outline-width: medium;
   width: 225;
   margin-left: inherit;
-  
+}
 
+#output1 {
+  text-decoration: none;
+  
 }
 
 #background {
