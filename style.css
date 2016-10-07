@@ -43,7 +43,7 @@
 */
 
 #output1 {
-  text-decoration: none;
+  font-size: 15px;
 }
 
 #checkBox1 {
@@ -62,7 +62,6 @@
   background-color: aliceblue;
   opacity: 0.6;
   font-family: "verdana";
-  text-decoration: underline;
   font-size: 18;
   color: black;
   float: left;
