@@ -33,7 +33,7 @@ input1.keydown(function(e) {
   if (e.keyCode == "13") {
     var valueToSave = input1.val();
     addListItem("list1", valueToSave);
-    input2.val('');
+    input1.val('');
   }
 })
 
