@@ -54,6 +54,7 @@ input2.keydown(function(e) {
   if (e.keyCode == "13") {
     var valueToSave = input2.val();
     addListItem("list2", valueToSave);
+    $("#txtFirstName").val('');
   }
 })
 
