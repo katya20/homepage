@@ -50,14 +50,6 @@ $("#clear-button-1").click(function() {
 
 var input = $("#checkbox2")
 
-var t =2
-function() {
-  var t =1
-}
-
-t // undefined
-
-
 input.keydown(function(e) {	
   if (e.keyCode == "13") {
     var valueToSave2 = input.val();
