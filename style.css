@@ -70,7 +70,21 @@ Today
   float: left;
   text-align: center;
 }
+#clear-button-1 {
+  background-color: white;
+  border: none;
+  text-decoration: line-through;
+  cursor: pointer;
+  box-shadow: 0 2px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
 
+/*
+For Later
+*/
+
+#output2 {
+  font-size: 13px;
+}
 
 
 #todo2 {
@@ -87,22 +101,6 @@ Today
 }
 
 
-#clear-button-1 {
-  background-color: white;
-  border: none;
-  text-decoration: line-through;
-  cursor: pointer;
-  box-shadow: 0 2px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
-#clear-button-2 {
-  background-color: white;
-  border: none;
-  text-decoration: line-through;
-  cursor: pointer;
-  box-shadow: 0 2px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
 #checkBox2 {
   text-decoration: none;
   margin-top: 5px;
@@ -112,6 +110,16 @@ Today
   width: 225;
   margin-left: inherit;
 }
+
+
+#clear-button-2 {
+  background-color: white;
+  border: none;
+  text-decoration: line-through;
+  cursor: pointer;
+  box-shadow: 0 2px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
 
 #background {
   background-image: url("http://cdn.paper4pc.com/images/dandelions-closeup-wallpaper-1.jpg");
