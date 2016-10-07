@@ -15,6 +15,11 @@
   height: 50px;
 }
 
+#name {
+  opacity: 0.8;
+  
+}
+
 #title {
   background-color: aliceblue;
   opacity: 0.6;
