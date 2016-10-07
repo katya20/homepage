@@ -76,7 +76,6 @@
   background-color: aliceblue;
   opacity: 0.6;
   font-family: "verdana";
-  text-decoration: underline;
   font-size: 20;
   color: black;
   text-align: center;
@@ -86,14 +85,20 @@
 
 
 
-
-
 #background {
   background-image: url("http://cdn.paper4pc.com/images/dandelions-closeup-wallpaper-1.jpg");
   background-size:cover; 
 }
 
 #clear-button-1 {
+  background-color: white;
+  border: none;
+  text-decoration: line-through;
+  cursor: pointer;
+  box-shadow: 0 2px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#clear-button-2 {
   background-color: white;
   border: none;
   text-decoration: line-through;
