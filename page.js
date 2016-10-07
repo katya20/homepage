@@ -46,3 +46,26 @@ $("#clear-button-1").click(function() {
   deleteValue("list1")
   $("#output1").html("");
 });
+
+// To Do List (for later)
+
+var input = $("#checkbox2")
+
+
+
+input.keydown(function(e) {	
+  if (e.keyCode == "13") {
+    var valueToSave = input.val();
+    addListItem("list2", valueToSave);
+  }
+})
+
+onNewListItem("list2", function(value) {
+  $("#output2").append("<div>" + value + "</div>")
+  console.log(value);
+}) 
+
+$("#clear-button-2").click(function() {
+  deleteValue("list2")
+  $("#output2").html("");
+});
