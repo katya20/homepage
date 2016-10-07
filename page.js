@@ -24,7 +24,7 @@ function checkTime(i) {
 
 console.log("hello")
 
-// To Do List
+// To Do List (today)
 
 var input = $("#checkbox1")
 
