@@ -25,14 +25,14 @@ function checkTime(i) {
 
 // To Do List (today)
 
-var input = $("#checkbox1")
+var input1 = $("#checkbox1")
 
 
 
 input.keydown(function(e) {	
   if (e.keyCode == "13") {
-    var valueToSave1 = input.val();
-    addListItem("list1", valueToSave1);
+    var valueToSave = input1.val();
+    addListItem("list1", valueToSave);
   }
 })
 
@@ -48,12 +48,12 @@ $("#clear-button-1").click(function() {
 
 // To Do List (for later)
 
-var input = $("#checkbox2")
+var input2 = $("#checkbox2")
 
 input.keydown(function(e) {	
   if (e.keyCode == "13") {
-    var valueToSave2 = input.val();
-    addListItem("list2", valueToSave2);
+    var valueToSave = input2.val();
+    addListItem("list2", valueToSave);
   }
 })
 
