@@ -42,6 +42,20 @@
 }
 */
 
+#output1 {
+  text-decoration: none;
+}
+
+#checkBox1 {
+  text-decoration: none;
+  margin-top: 5px;
+  display: block;
+  outline-color: aqua;
+  outline-width: medium;
+  width: 225;
+  margin-left: inherit;
+}
+
 #todo1 {
   width: 250;
   height: 300px;
@@ -71,20 +85,9 @@
   float:right
 }
 
-#checkBox1 {
-  text-decoration: none;
-  margin-top: 5px;
-  display: block;
-  outline-color: aqua;
-  outline-width: medium;
-  width: 225;
-  margin-left: inherit;
-}
 
-#output1 {
-  text-decoration: none;
-  
-}
+
+
 
 #background {
   background-image: url("http://cdn.paper4pc.com/images/dandelions-closeup-wallpaper-1.jpg");
