@@ -42,7 +42,7 @@ onNewListItem("list1", function(value) {
   console.log(value);
 }) 
 
-$("#clear-button").click(function() {
+$("#clear-button-1").click(function() {
   deleteValue("list1")
   $("#output1").html("");
 });
