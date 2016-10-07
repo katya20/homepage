@@ -29,7 +29,7 @@ var input1 = $("#checkbox1")
 
 
 
-input.keydown(function(e) {	
+input1.keydown(function(e) {	
   if (e.keyCode == "13") {
     var valueToSave = input1.val();
     addListItem("list1", valueToSave);
@@ -50,7 +50,7 @@ $("#clear-button-1").click(function() {
 
 var input2 = $("#checkbox2")
 
-input.keydown(function(e) {	
+input2.keydown(function(e) {	
   if (e.keyCode == "13") {
     var valueToSave = input2.val();
     addListItem("list2", valueToSave);
