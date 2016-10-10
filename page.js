@@ -7,7 +7,9 @@ function onNewListItem(name, callback) {
 }
 
 // Name
- var name = 
+ var name = $("#name")
+ 
+ name.
 
 
 
