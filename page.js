@@ -11,7 +11,7 @@ function onNewListItem(name, callback) {
  
  function onKeydown (function(e) {
    if (e.keyCode == 13) {
-     return(input.value)
+     console.log(name.value + "!")
    }
  }
 
