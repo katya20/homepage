@@ -9,7 +9,11 @@ function onNewListItem(name, callback) {
 // Name
  var name = $("#name")
  
- name.
+ function onKeydown (function(e) {
+   if (e.keyCode == 13) {
+     return(input.value)
+   }
+ }
 
 
 
