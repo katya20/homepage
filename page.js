@@ -10,11 +10,14 @@ function onNewListItem(name, callback) {
 // Name
  var name = $("#name")
  
- name.keydown(function(e) {
-   if (e.keyCode == 13) {
-     console.log(name.val() + "!")
-   }
- }
+ nameInput.keydown(function(e) {
+   if (e.which == 13) {
+     getNotesForName(nameInput.val());
+     console.log(nameInput.val());
+     $("#output1").html("");
+     $("#output2").html("");
+   }	
+ })
  
 
 
@@ -85,25 +88,8 @@ console.log("script.js is running");
 
 var name;
 var nameInput = $("#name-input")
-var noteInput = $("#note-input")
-var noteList = $("#note-list")
-
-nameInput.keydown(function(e) {
-  if (e.which == 13) {
-    getNotesForName(nameInput.val());
-    console.log(nameInput.val());
-    $("#output1").html("");
-    $("#output2").html("");
-  }	
-})
 
 
-noteInput.keydown(function(e) {
-  if (e.which == 13) {    
-    addListItem(nameInput.val() + "/notes", noteInput.val())
-    console.log("noteInput keydown is working");
-    $("#note-list").append(noteInput.val());
-  }
-})
+
 
 
