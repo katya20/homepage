@@ -8,7 +8,8 @@ function onNewListItem(name, callback) {
 }
 
 // Name
- var name = $("#name")
+
+ var nameInput = $("#nameInput")
  
  nameInput.keydown(function(e) {
    if (e.which == 13) {
@@ -87,7 +88,7 @@ $("#clear-button-2").click(function() {
 console.log("script.js is running");
 
 var name;
-var nameInput = $("#name-input")
+
 
 
 
