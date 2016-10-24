@@ -42,18 +42,18 @@ var input1 = $("#checkbox1")
 input1.keydown(function(e) {	
   if (e.keyCode == "13") {
     var valueToSave = input1.val();
-    addListItem("list1", valueToSave);
+    addListItem(nameInput.val() + "1", valueToSave);
     input1.val('');
   }
 })
 
-onNewListItem("list1", function(value) {
+onNewListItem(nameInput.val() + "1", function(value) {
   $("#output1").append("<div>" + value + "</div>")
   console.log(value);
 }) 
 
 $("#clear-button-1").click(function() {
-  deleteValue("list1")
+  deleteValue(nameInput.val() + "1")
   $("#output1").html("");
 });
 
@@ -64,12 +64,12 @@ var input2 = $("#checkbox2")
 input2.keydown(function(e) {	
   if (e.keyCode == "13") {
     var valueToSave = input2.val();
-    addListItem("list2", valueToSave);
+    addListItem(nameInput.val() + "2", valueToSave);
     input2.val('');
   }
 })
 
-onNewListItem("list2", function(value) {
+onNewListItem(nameInput.val() + "2", function(value) {
   $("#output2").append("<div>" + value + "</div>")
   console.log(value);
 }) 
