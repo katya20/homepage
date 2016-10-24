@@ -9,12 +9,12 @@ function onNewListItem(name, callback) {
 // Name
  var name = $("#name")
  
- function onKeydown (function(e) {
+ name.keydown(function(e) {
    if (e.keyCode == 13) {
-     console.log(name.value + "!")
+     console.log(name.val() + "!")
    }
  }
-
+ 
 
 
 // Clock & time refresh
