@@ -75,7 +75,7 @@ onNewListItem(nameInput.val() + "2", function(value) {
 }) 
 
 $("#clear-button-2").click(function() {
-  deleteValue("list2")
+  deleteValue(nameInput.val() + "2")
   $("#output2").html("");
 });
 
