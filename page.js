@@ -91,15 +91,11 @@ nameInput.keydown(function(e) {
   if (e.which == 13) {
     getNotesForName(nameInput.val());
     console.log(nameInput.val());
-    $("#note-list").html("");
+    $("#output1").html("");
+    $("#output2").html("");
   }	
 })
 
-function getNotesForName(name) {  
-  onNewListItem(nameInput.val() + "/notes", function(note) {
-    $("#note-list").append("<div>" + note + "</div>")
-  })
-}
 
 noteInput.keydown(function(e) {
   if (e.which == 13) {    
