@@ -41,8 +41,7 @@ var input1 = $("#checkbox1")
 
 input1.keydown(function(e) {	
   if (e.keyCode == "13") {
-    addListItem(nameInput.val() + "1", input1.val());
-    
+    addListItem(nameInput.val() + "1", input1.val()); 
   }
 })
 
