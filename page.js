@@ -64,9 +64,9 @@ var input2 = $("#checkbox2")
 
 input2.keydown(function(e) {	
   if (e.keyCode == "13") {
-    var valueToSave = input2.val();
-    addListItem(nameInput.val() + "2", valueToSave);
-    input2.val('');
+    addListItem(nameInput.val() + "/2", input2.val()); 
+    console.log("input2 keydown is working");
+    $("#output2").append(input2.val());
   }
 })
 
