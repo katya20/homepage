@@ -7,6 +7,12 @@ function onNewListItem(name, callback) {
   })
 }
 
+function getNotesForName(name) {  
+  onNewListItem(nameInput.val() + "/notes", function(note) {
+    $("#note-list").append("<div>" + note + "</div>")
+  })
+}
+
 // Name
 
  var nameInput = $("#nameInput")
