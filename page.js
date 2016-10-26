@@ -8,8 +8,10 @@ function onNewListItem(name, callback) {
 }
 
 function getNotesForName(name) {  
-  onNewListItem(nameInput.val() + "/notes", function(note) {
-    $("#note-list").append("<div>" + note + "</div>")
+  onNewListItem(nameInput.val() + "/1", function(note) {
+    $("#output1").append("<div>" + note + "</div>")
+    $("#output2").append("<div>" + note + "</div>")
+    
   })
 }
 
