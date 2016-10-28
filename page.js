@@ -1,11 +1,6 @@
 console.log("page.js is running");
 
 // Functions
-function onNewListItem(name, callback) {		
-  store.child("vars" + "/" + name).on("child_added", function(data) {
-    callback(data.val())
-  })
-}
 
 function getNotesForName(name) {  
   onNewListItem(nameInput.val() + "/1", function(note) {
