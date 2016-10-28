@@ -5,8 +5,7 @@ console.log("page.js is running");
 function getNotesForName(name) {  
   onNewListItem(nameInput.val() + "/1", function(note) {
     $("#output1").append("<div>" + note + "</div>")
-    $("#output2").append("<div>" + note + "</div>")
-    
+    $("#output2").append("<div>" + note + "</div>") 
   })
 }
 
