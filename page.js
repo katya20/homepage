@@ -15,7 +15,7 @@ function getNotesForName(name) {
  
  nameInput.keydown(function(e) {
    if (e.which == 13) {
-     getNotesForName(nameInput.val());
+//     getNotesForName(nameInput.val());
      console.log(nameInput.val());
 //     $("#output1").html("");
 //     $("#output2").html("");
