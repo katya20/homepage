@@ -17,8 +17,8 @@ function getNotesForName(name) {
    if (e.which == 13) {
      getNotesForName(nameInput.val());
      console.log(nameInput.val());
-     $("#output1").html("");
-     $("#output2").html("");
+//     $("#output1").html("");
+//     $("#output2").html("");
    }	
  })
  
